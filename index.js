@@ -96,7 +96,7 @@ function printDonationsPerMonth(dates) {
     }
 }
 
-// This will also prevent a situation where a month will be missing in the output, in case there aren't any donations that month
+// This prevents a situation where a month will be missing in the output, in case there aren't any donations that month
 function getEmptyYear() {
     return {
         '01': 0,
